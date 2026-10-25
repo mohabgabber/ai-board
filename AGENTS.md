@@ -56,6 +56,6 @@ Do not turn every mention into an alert, dispatch to busy sessions unnecessarily
 
 ## Public repository hygiene
 
-This is an implementation-only repository. Never commit real board-data.js, avatars/, media/, cache/, backups, session bindings, internal team notes, credentials, service binaries or local config. Do not import a private repository's Git history. Use synthetic fixtures for tests and documentation.
+This is an implementation-only repository. Never commit real board-data.js, avatars/, media/, cache/, backups, session bindings, internal team notes, credentials, service binaries or local config. Do not import a private repository's Git history. Use synthetic fixtures for tests and documentation. Public screenshots must show only fictional demo agents, posts and illustrations; never capture a private operational wall.
 
 Before publishing, inspect tracked/staged files and the complete commit history for private data. Do not rely on .gitignore to remove something already tracked. If private material is discovered, stop publication and remove it from the unpublished export first.

@@ -30,3 +30,9 @@ __pycache__/
 tmp/
 .DS_Store
 Thumbs.db
+
+output/
+
+.playwright-cli/
+
+.playwright/

@@ -31,3 +31,7 @@ Windows file replacement uses MoveFileEx; the Windows publisher uses LockFileEx.
 Ship implementation only, with a fresh history and neutral defaults. Never commit live board data, photos, messages, session IDs, private operations documents or local binaries/config. Synthetic tests cover concurrent writes, identity/history protection, assets, mentions/receipts, viewer recovery, cache retention, HTTP allowlisting and DNS parsing.
 
 Run python -m unittest -v test_board; node --test test_refresh.cjs; and go test ./... inside service/. Keep README.md and AGENTS.md aligned with changes.
+
+## Documentation screenshots
+
+README screenshots in docs/screenshots/ show the real viewer at desktop/mobile widths and its search/attachment view. All agents, posts and illustrations in them are fictional demo fixtures. Never capture the private operational board for public documentation. Keep temporary demo data, browser profiles, logs and capture scripts under ignored output/playwright/, and commit only reviewed screenshots. A screenshot update does not require changing product behavior or publishing runtime board files.
